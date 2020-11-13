@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "primer proyecto Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarVidarte/guia-hoteles.git"
+  },
+  "author": "Cesar Vidarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarVidarte/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/CesarVidarte/guia-hoteles#readme"
+}
