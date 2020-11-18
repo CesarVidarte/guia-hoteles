@@ -17,7 +17,7 @@
 
 <body>
   <div class="jumbotron">
-    <h1 style="text-align:center">Hoteles</h1>
+    <h1 class="centrado">Hoteles</h1>
   </div>
   <div class="container">
     <div class="row">
@@ -25,13 +25,13 @@
         <p>
         <h3>¿Cómo funciona?</h3>
         <!-- Texto de los parrafos justificado -->
-        <p style="text-align:justify">Busca los hoteles deacuerdo a tu preferencia.</p>
+        <p class="justificado">Busca los hoteles de acuerdo a tu preferencia.</p>
         </p>
       </div>
       <div class="col-md-4">
         <p>
         <h3>¿Cómo hago una reserva?</h3>
-        <p style="text-align:justify">Busca la ciudad que te interesa, selecciona el hotel de tu
+        <p class="justificado">Busca la ciudad que te interesa, selecciona el hotel de tu
           preferencia, elige la fecha, verifica la disponibilidad y realiza
           tu reservación ingresando tus datos.</p>
         </p>
@@ -39,54 +39,132 @@
       <div class="col-md-4">
         <p>
         <h3>¿Cómo realizar el pago?</h3>
-        <p style="text-align:justify">Una vez estés en el proceso de reservación puedes elegir uno de
+        <p class="justificado">Una vez estés en el proceso de reservación puedes elegir uno de
           los distintos métodos de pago que tenemos para ti.</p>
         </p>
       </div>
     </div>
-  </div>
-  <hr>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <h4 style="text-align:center">Hotel Pance 122</h4>
-        <p style="text-align:justify">El Hotel Pance 122 se encuentra en Cali, a 10 km de la plaza de toros de Cañaveralejo, y ofrece alojamiento con restaurante,
-          aparcamiento privado gratuito, centro de fitness y bar. El establecimiento se encuentra a 12 km del parque
-          Panamericano y a 15 km de la catedral de San Pedro, y cuenta con jardín y terraza. El alojamiento ofrece recepción 24 horas, servicio de habitaciones y cambio de divisa.</p>
-        <button class="button" type="button">
-          Ver disponibilidad
-        </button>
+    <hr>
+    <!-- <div class="row"> -->
+    <div class="d-flex flex-wrap flex-row-reverse">
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">Hotel Pance 122</h4>
+          <p class="justificado">El Hotel Pance 122 se encuentra en Cali, a 10 km de la plaza de toros de Cañaveralejo, y ofrece alojamiento con restaurante,
+            aparcamiento privado gratuito, centro de fitness y bar. El establecimiento se encuentra a 12 km del parque
+            Panamericano y a 15 km de la catedral de San Pedro, y cuenta con jardín y terraza. El alojamiento ofrece recepción 24 horas, servicio de habitaciones y cambio de divisa.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
       </div>
-      <div class="col-lg-3">
-        <h4 style="text-align:center">Hotel Rossa Palma</h4>
-        <p style="text-align:justify">El Rossa Palma, situado en Cali, cuenta con restaurante, bar, salón compartido y jardín. Cuenta con mostrador de información turística y terraza.
-          El alojamiento ofrece entretenimiento nocturno y conexión WiFi gratuita en todo el establecimiento. El Rossa Palma está cerca del teatro Jorge Isaacs,
-          la iglesia La Ermita y el parque artesanal Loma de la Cruz.</p>
-        <button class="button" type="button">
-          Ver disponibilidad
-        </button>
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">Hotel Rossa Palma</h4>
+          <p class="justificado">El Rossa Palma, situado en Cali, cuenta con restaurante, bar, salón compartido y jardín. Cuenta con mostrador de información turística y terraza.
+            El alojamiento ofrece entretenimiento nocturno y conexión WiFi gratuita en todo el establecimiento. El Rossa Palma está cerca del teatro Jorge Isaacs,
+            la iglesia La Ermita y el parque artesanal Loma de la Cruz.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
       </div>
-      <div class="col-lg-3">
-        <h4 style="text-align:center">Malik Hotel Boutique</h4>
-        <p style="text-align:justify">El Malik Hotel Boutique se encuentra en Cali, a 7 km de la plaza de toros de Cañaveralejo, y ofrece habitaciones con aire acondicionado y jardín.
-          Ofrece servicio de habitaciones y terraza. Cuenta con piscina al aire libre, conexión Wi-Fi gratuita y aparcamiento privado gratuito.
-          Todos los alojamientos del hotel están equipados con TV de pantalla plana.</p>
-        <button class="button" type="button">
-          Ver disponibilidad
-        </button>
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">Malik Hotel Boutique</h4>
+          <p class="justificado">El Malik Hotel Boutique se encuentra en Cali, a 7 km de la plaza de toros de Cañaveralejo, y ofrece habitaciones con aire acondicionado y jardín.
+            Ofrece servicio de habitaciones y terraza. Cuenta con piscina al aire libre, conexión Wi-Fi gratuita y aparcamiento privado gratuito.
+            Todos los alojamientos del hotel están equipados con TV de pantalla plana.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
       </div>
-      <div class="col-lg-3">
-        <h4 style="text-align:center">Alko Hotel Boutique</h4>
-        <p style="text-align:justify">El Alko Hotel Boutique se encuentra en Cali, a 2,1 km del teatro Jorge Isaacs, y ofrece habitaciones con aire acondicionado y jardín.
-          El establecimiento está a unos 2,1 km de la catedral de San Pedro, a 2,3 km de la iglesia La Ermita y a 3,9 km del parque Panamericano. El establecimiento dispone de terraza.
-          La recepción está abierta las 24 horas y hay conexión WiFi gratuita en todas las instalaciones.</p>
-        <button class="button" type="button">
-          Ver disponibilidad
-        </button>
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">Alko Hotel Boutique</h4>
+          <p class="justificado">El Alko Hotel Boutique se encuentra en Cali, a 2,1 km del teatro Jorge Isaacs, y ofrece habitaciones con aire acondicionado y jardín.
+            El establecimiento está a unos 2,1 km de la catedral de San Pedro, a 2,3 km de la iglesia La Ermita y a 3,9 km del parque Panamericano. El establecimiento dispone de terraza.
+            La recepción está abierta las 24 horas y hay conexión WiFi gratuita en todas las instalaciones.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">Hotel El Peñon</h4>
+          <p class="justificado">El Peñon Hotel está situado en el barrio El Peñón, a solo 100 metros de la zona financiera y del centro de la ciudad. La zona ofrece una amplia gama de restaurantes,
+            bares, oficinas y centros de negocios. El desayuno y la WiFi están incluidos.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">NH Cali Royal</h4>
+          <p class="justificado">Este hotel de 5 estrellas se encuentra en Cali, Colombia, junto al Holguines Trade Center, y ofrece recepción las 24 horas, centro de negocios, WiFi gratuita y aparcamiento gratuito.
+            Alberga piscina al aire libre y spa.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column">
+        <div>
+          <h4 class="centrado">Hotel Obelisco</h4>
+          <p class="justificado">El Hotel Obelisco dispone de piscina y de habitaciones con balcones privados, TV y WiFi gratuita. Se sirve desayuno. El estadio Pascual Guerrero está a 15 minutos en coche.</p>
+        </div>
+        <div>
+          <button class="button" type="button">
+            Ver disponibilidad
+          </button>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column align-items-left">
+        <h3>Nuestras redes</h3>
+        <a href="http://www.facebook.com">Facebook</a>
+        <a href="http://www.twitter.com">Twitter</a>
+        <a href="http://www.instagram.com">Instagram</a>
+        <a href="http://www.google.com">Google+</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-center">
+        <address>
+          <h3>Oficina principal</h3>
+          <p>calle 1 # 2-3, Cali, Colombia</p>
+          <p>+571234567890</p>
+          <p>random@guiahoteles.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <h3>Información</h3>
+        <a href="http://www.facebook.com">Nosotros</a>
+        <a href="http://www.twitter.com">Precios</a>
+        <a href="http://www.instagram.com">Términos y condiciones</a>
+        <a href="http://www.google.com">Contacto</a>
+      </div>
+    </div>
+  </footer>
 
 
 
