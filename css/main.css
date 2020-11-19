@@ -1,5 +1,5 @@
 .jumbotron{
-  background-color: #008CBA;
+  background-color: #00BCBB;
   color: white;
 }
 .justificado{
@@ -31,7 +31,9 @@
 }
 .card-hotel{
   flex: 1 150px;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 10px 5px 10px;
   justify-content: space-between;
   border-style: groove;
+  background-color:  #00BCBB;
+  color: white;
 }
