@@ -3,6 +3,10 @@
   color: white;
   margin-top: 50px
 }
+.azul{
+  background-color: #00BCBB;
+  color: white;
+}
 .justificado{
   text-align:justify;
 }
