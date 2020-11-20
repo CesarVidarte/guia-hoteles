@@ -1,6 +1,7 @@
 .jumbotron{
   background-color: #00BCBB;
   color: white;
+  margin-top: 50px
 }
 .justificado{
   text-align:justify;
