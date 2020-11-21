@@ -22,7 +22,6 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   background-color: #008CBA;
 }
@@ -35,12 +34,11 @@
 
 }
 .card-hotel{
-  flex: 1 150px;
-  padding: 5px 10px 5px 10px;
+  flex: 1 200px;
   justify-content: space-between;
   border-style: groove;
-  background-color:  #00BCBB;
-  color: white;
+  
+
 }
 .footer-icon{
   padding-right: 10px;
