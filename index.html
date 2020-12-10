@@ -50,15 +50,37 @@
         <img src="imagenes/banner.jpg" class="card-img" alt="hotel img">
       </div>
     </div>
+
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
+        <button class="button" type="button" data-toggle="collapse"
+          data-target="#funciona" aria-controls="multiCollapse1" >
+            ¿Cómo funciona?
+          </button>
+      </div>
+      <div class="col-sm-4">
+        <button class="button" type="button" data-toggle="collapse"
+          data-target="#reserva" aria-controls="multiCollapse2">
+            ¿Cómo hago una reserva?
+          </button>
+      </div>
+      <div class="col-sm-4">
+        <button class="button" type="button" data-toggle="collapse"
+          data-target="#pago" aria-controls="multiCollapse3">
+            ¿Cómo realizar el pago?
+          </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 collapse multi-collapse" id="funciona">
         <p>
         <h3>¿Cómo funciona?</h3>
         <!-- Texto de los parrafos justificado -->
         <p class="justificado">Busca los hoteles de acuerdo a tu preferencia.</p>
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 collapse multi-collapse" id="reserva">
         <p>
         <h3>¿Cómo hago una reserva?</h3>
         <p class="justificado">Busca la ciudad que te interesa, selecciona el hotel de tu
@@ -66,7 +88,7 @@
           tu reservación ingresando tus datos.</p>
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 collapse multi-collapse" id="pago">
         <p>
         <h3>¿Cómo realizar el pago?</h3>
         <p class="justificado">Una vez estés en el proceso de reservación puedes elegir uno de
