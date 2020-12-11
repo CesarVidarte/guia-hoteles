@@ -47,9 +47,58 @@
         <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
       </ol>
     </nav>
-    <span>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </span>
+    <div class="row">
+      <div class="col">
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <button class="btn btn-outline-success ancho centrado"
+          data-toggle="modal" data-target="#contacto">¿Quieres que tu hotel haga parte de nuestra página?
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">¡Envíanos tu información y te contactaremos!</h5>
+          <!-- boton de X -->
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="hotel-name" class="col-form-label">Hotel al cual representas</label>
+              <input type="text" class="form-control" id="hotel-name">
+            </div>
+            <div class="form-group">
+              <label for="ciudad-name" class="col-form-label">Ciudad</label>
+              <input type="text" class="form-control" id="ciudad-name">
+            </div>
+            <div class="form-group">
+              <label for="email-name" class="col-form-label">Email</label>
+              <input type="text" class="form-control" id="email-name">
+            </div>
+            <div class="form-group">
+              <label for="phone-name" class="col-form-label">Número telefónico</label>
+              <input type="text" class="form-control" id="phone-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Comentarios adicionales</label>
+              <textarea id="message-text" cols="30" rows="5" class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-success" type="button">Enviar</button>
+        </div>
+      </div>
+    </div>
   </div>
 
 
