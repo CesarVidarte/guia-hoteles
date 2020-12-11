@@ -53,7 +53,7 @@
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
         <button class="btn btn-outline-success ancho centrado"
-          data-toggle="modal" data-target="#contacto">¿Quieres que tu hotel haga parte de nuestra página?
+          data-toggle="modal" data-target="#contacto" id="contactoBtn">¿Quieres que tu hotel haga parte de nuestra página?
         </button>
 
       </div>
@@ -129,15 +129,37 @@
     </div>
   </footer>
 
-
-
-
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- se agrega la fuente jQuery, Popper.js, and Bootstrap JS -->
   <script src="node_modules/jQuery/dist/jquery.min.js"> </script>
   <script src="node_modules/popper.js/dist/popper.min.js"> </script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+
+  <script>
+    $(function(){
+      $('#contacto').on('show.bs.modal', function (e) {
+        console.log('el modal se está mostrando');
+        $('#contactoBtn').removeClass('btn-outline-success');
+        $('#contactoBtn').addClass('btn-primary');
+        $('#contactoBtn').prop('disabled',true);
+
+      });
+      $('#contacto').on('shown.bs.modal', function (e) {
+        console.log('el modal se mostó');
+      });
+      $('#contacto').on('hide.bs.modal', function (e) {
+        console.log('el modal se oculta');
+      });
+      $('#contacto').on('hidden.bs.modal', function (e) {
+        console.log('el modal se ocultó');
+        $('#contactoBtn').addClass('btn-outline-success');
+        $('#contactoBtn').removeClass('btn-primary');
+        $('#contactoBtn').prop('disabled',false);
+      });
+    });
+
+  </script>
 
 
 </body>
