@@ -1,0 +1,58 @@
+@yellow: #fffa19;
+@azul: #00BCBB;
+@aguamarina: #008CBA;
+@rojo: #FF0000;
+
+.margenes( @top: 0px, @bottom: 0px){
+  margin-top: @top;
+  margin-bottom: @bottom;
+}
+.alineacionTexto(@align){
+  text-align: @align;
+}
+
+.jumbotron{
+  background-color: @azul;
+  color: white;
+  .margenes(50px,10px);
+}
+.azul{
+  background-color: @azul
+}
+.justificado{
+  .alineacionTexto(justify);
+}
+.centrado{
+  .alineacionTexto(center);
+}
+.button {
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 15px 32px;
+  .alineacionTexto(center);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: @aguamarina;
+}
+.ancho{
+  width: 100%;
+}
+.footer{
+  padding: 10px 10px 0 10px;
+  background-color: @azul;
+  .margenes(10px,0px);
+  color:white;
+
+}
+.card-hotel{
+  flex: 1 200px;
+  justify-content: space-between;
+  border-style: groove;
+
+}
+.footer-icon{
+  padding-right: 10px;
+}

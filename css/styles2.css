@@ -1,0 +1,45 @@
+.jumbotron {
+  background-color: #00BCBB;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.azul {
+  background-color: #00BCBB;
+}
+.justificado {
+  text-align: justify;
+}
+.centrado {
+  text-align: center;
+}
+.button {
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+.ancho {
+  width: 100%;
+}
+.footer {
+  padding: 10px 10px 0 10px;
+  background-color: #00BCBB;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+.card-hotel {
+  flex: 1 200px;
+  justify-content: space-between;
+  border-style: groove;
+}
+.footer-icon {
+  padding-right: 10px;
+}
