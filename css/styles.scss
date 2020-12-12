@@ -1,0 +1,58 @@
+$yellow: #fffa19;
+$azul: #00BCBB;
+$aguamarina: #008CBA;
+$rojo: #FF0000;
+
+@mixin margenes($top, $bottom){
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+@mixin alineacionTexto($align){
+  text-align: $align;
+}
+
+.jumbotron{
+  background-color: $azul;
+  color: white;
+  @include margenes(50px,10px);
+}
+.azul{
+  background-color: $azul
+}
+.justificado{
+  @include alineacionTexto(justify);
+}
+.centrado{
+  @include alineacionTexto(center);
+}
+.button {
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 15px 32px;
+  @include alineacionTexto(center);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: $aguamarina;
+}
+.ancho{
+  width: 100%;
+}
+.footer{
+  padding: 10px 10px 0 10px;
+  background-color: $azul;
+  @include margenes(10px,0px);
+  color:white;
+
+}
+.card-hotel{
+  flex: 1 200px;
+  justify-content: space-between;
+  border-style: groove;
+
+}
+.footer-icon{
+  padding-right: 10px;
+}
