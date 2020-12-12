@@ -7,6 +7,7 @@ $rojo: #FF0000;
   margin-top: $top;
   margin-bottom: $bottom;
 }
+
 @mixin alineacionTexto($align){
   text-align: $align;
 }
