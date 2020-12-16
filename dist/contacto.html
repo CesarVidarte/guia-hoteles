@@ -1,2 +1,140 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="stylesheet" href="dist/contacto.css"><title>Guia hoteles</title></head><body><nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"><a class="navbar-brand" href="./index.html">Hoteles</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav mr-auto"><li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li><li class="nav-item"><a href="./about.html" class="nav-link">Nosotros</a></li><li class="nav-item"><a href="./precios.html" class="nav-link">Precios</a></li><li class="nav-item"><a href="./terminos.html" class="nav-link">Términos y condiciones</a></li><li class="nav-item active"><a href="./contacto.html" class="nav-link">Contacto</a></li></ul></div></nav><div class="jumbotron"><h1 class="centrado">Hoteles</h1></div><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li><li class="breadcrumb-item active" aria-current="page">Contacto</li></ol></nav><h1>Dejanos tu comentario</h1><form><div class="form-row"><div class="form-group col-sm-6"><label for="nombre">Nombre</label> <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre"></div><div class="form-group col-sm-6"><label for="apellido">Apellido</label> <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido"></div></div><div class="form-group"><label for="email">Email</label> <input type="text" class="form-control" id="email" placeholder="Ingrese su email"></div><div class="form-row"><div class="form-group col-sm-9"><label for="dirección">Dirección</label> <input type="text" class="form-control" id="dirección" placeholder="Ingrese su dirección"></div><div class="form-group col-sm-3"><label for="ciudad">Ciudad</label> <select id="ciudad" class="form-control"><option selected="selected">Cali</option><option value="">Medellín</option><option value="">Bogotá</option><option value="">Cartagena</option><option value="">Popayán</option></select></div></div><div class="form-group"><label for="comentario">Comentario</label> <textarea name="" id="comentario" rows="10" class="form-control">
-         </textarea></div><div class="form-group form-check"><input type="checkbox" class="form-check-input" id="gridCheck"> <label for="gridCheck" class="form-check-label">Quiero que me contacten</label></div><button type="submit" class="btn btn-primary" style="width:100%">Enviar</button></form></div><footer class="footer"><div class="row"><div class="col-sm-4 d-flex flex-column align-items-left"><h3>Nuestras redes</h3><a href="http://www.facebook.com">Facebook</a> <a href="http://www.twitter.com">Twitter</a> <a href="http://www.instagram.com">Instagram</a> <a href="http://www.google.com">Google+</a></div><div class="col-sm-4 d-flex flex-column align-items-center"><address><h3>Oficina principal</h3><p><span class="oi oi-home footer-icon"></span> calle 1 # 2-3, Cali, Colombia</p><p><span class="oi oi-phone footer-icon"></span> +571234567890</p><p><span class="oi oi-inbox footer-icon"></span> random@guiahoteles.com</p></address></div><div class="col-sm-4 d-flex flex-column align-items-end"><h3>Información</h3><a href="./about.html">Nosotros</a> <a href="./precios.html">Precios</a> <a href="./terminos.html">Términos y condiciones</a> <a href="./contacto.html">Contacto</a></div></div></footer><script src="dist/contacto.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- Permite trabajar con las funciones responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Se agrega la referencia Bootstrap CSS -->
+  <link rel="stylesheet" href="css/index.48c3b399ba73be1593a4.css">
+
+  <title>Guia hoteles</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+    <a class="navbar-brand" href="./index.html">Hoteles</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item "><a href="./index.html" class="nav-link">Home</a></li>
+        <li class="nav-item "><a href="./about.html" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="./precios.html" class="nav-link">Precios</a></li>
+        <li class="nav-item"><a href="./terminos.html" class="nav-link">Términos y condiciones</a></li>
+        <li class="nav-item  active"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="centrado">Hoteles</h1>
+  </div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <!-- Crea un vinculo a home en el breadcrumb !-->
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+      </ol>
+    </nav>
+
+
+    <h1>Dejanos tu comentario</h1>
+    <form>
+       <div class="form-row">
+         <div class="form-group col-sm-6">
+           <label for="nombre">Nombre</label>
+           <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+         </div>
+         <div class="form-group col-sm-6">
+           <label for="apellido">Apellido</label>
+           <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+         </div>
+       </div>
+       <div class="form-group">
+         <label for="email">Email</label>
+         <input type="text" class="form-control" id="email" placeholder="Ingrese su email">
+       </div>
+       <div class="form-row">
+         <div class="form-group col-sm-9">
+           <label for="dirección">Dirección</label>
+           <input type="text" class="form-control" id="dirección" placeholder="Ingrese su dirección">
+         </div>
+         <div class="form-group col-sm-3">
+           <label for="ciudad">Ciudad</label>
+           <select id="ciudad" class="form-control">
+             <option selected>Cali</option>
+             <option value="">Medellín</option>
+             <option value="">Bogotá</option>
+             <option value="">Cartagena</option>
+             <option value="">Popayán</option>
+           </select>
+         </div>
+       </div>
+       <div class="form-group">
+         <label for="comentario">Comentario</label>
+         <textarea name="" id="comentario" rows="10" class="form-control">
+         </textarea>
+       </div>
+       <div class="form-group form-check">
+         <input type="checkbox" class="form-check-input" id="gridCheck">
+         <label for="gridCheck" class="form-check-label">
+           Quiero que me contacten
+         </label>
+       </div>
+
+       <button type="submit" class="btn btn-primary" style="width:100%">Enviar</button>
+     </form>
+   </div>
+
+
+
+
+<footer class="footer">
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column align-items-left">
+        <h3>Nuestras redes</h3>
+        <a href="http://www.facebook.com">Facebook</a>
+        <a href="http://www.twitter.com">Twitter</a>
+        <a href="http://www.instagram.com">Instagram</a>
+        <a href="http://www.google.com">Google+</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-center">
+        <address>
+          <h3>Oficina principal</h3>
+          <p><span class="oi oi-home footer-icon"></span> calle 1 # 2-3, Cali, Colombia</p>
+          <p><span class="oi oi-phone footer-icon"></span> +571234567890</p>
+          <p><span class="oi oi-inbox footer-icon"></span> random@guiahoteles.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <h3>Información</h3>
+        <a href="./about.html">Nosotros</a>
+        <a href="./precios.html">Precios</a>
+        <a href="./terminos.html">Términos y condiciones</a>
+        <a href="./contacto.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- se agrega la fuente jQuery, Popper.js, and Bootstrap JS -->
+  <script src="js/main.0914736e67197620e80d.js"></script>
+
+
+</body>
+
+</html>
